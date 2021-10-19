@@ -1,0 +1,172 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*--------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+	background-color: #333;
+	font-family: "Lato", sans-serif;
+	color: #fff;
+	font-size: 20px;
+}
+
+.wrapper {
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.fullscreen {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background: lightseagreen;
+	padding: 20px 0px;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0px auto;
+}
+
+.fullscreen__body {
+	padding: 0px 20px;
+	text-align: center;
+}
+
+.fullscreen_bg {
+	background: url("../img/fullscreen/fullscreen-fixed.jpg") center / cover no-repeat fixed;
+}
+
+.fullscreen_two {
+	background: #794f45;
+}
+
+.fullscreen__title {
+	font-size: 60px;
+	margin: 0px 0px 20px 0px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.fullscreen__text {
+	font-size: 25px;
+	margin: 0px 0px 24px 0px;
+	letter-spacing: 1px;
+}
+
+.fullscreen__link {
+	display: inline-block;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+	background: #77608d;
+	padding: 0px 20px;
+	border-radius: 5px;
+}
+
+.fullscreen__link:hover {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+
+.content__body {
+	padding: 30px 20px;
+}
+
+.content__body p {
+	margin: 0px 0px 20px 0px;
+}
+
+.content__body p:last-child {
+	margin: 0px;
+}
+
+.footer {
+	background: #111;
+	text-align: center;
+}
+
+.footer__body {
+	padding: 30px 20px;
+}
